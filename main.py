@@ -16,9 +16,9 @@ while True:
             timestamp = datetime.now()
             elapsedtime = r.elapsed.total_seconds()
             print("<{}> in {} at {} from {}".format(statuscode, elapsedtime, timestamp, URL))
-            time.sleep(1) #29 min
+            time.sleep(1) 
         except Exception as e:
             print(e)
 
     
-    time.sleep(60) #29 min
+    time.sleep(60) 
